@@ -6,3 +6,10 @@
 <img src="iphone.jpg" width="100%"> - img 뒤에 있는 것을 attribute, 위치는 상관없음.
 <ul><li></li></ul> - ul태그는 순서가 없는 넘버링 . ul과 li는 부모와 자식관계처럼 와야한다. 
 <ol></ol> - 자동으로 넘버링
+<title></title> - 웹페이지의 이름
+<meta charset="utf-8"> - charset 문자 규칙
+<body></body> - 본문을 나타내는 고위직 태그
+<head></head> - 바디를 설명하는 고위직 태그
+<html></html> - 바디와 헤드를 감싸는 최상위 태그
+<!doctype html> - html문서라고 지징하는 태그
+<a href="훔페이지 주소" target="_blank" title="보여질 메시지"></a> - 글씨에 링크를 달수 있는 태그, target = "_blank"는 새로운 탭에서 여는 태그, title을 하면 보여질 메시지를 태그
