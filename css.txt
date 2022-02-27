@@ -1,0 +1,26 @@
+css를 쓰는 두가지 방법
+1. <style> </style> 태그를 쓴다.
+2. style 속성을 쓴다. 
+
+a{
+color:red;
+}
+
+a - seletor 선택자
+color:red; - declartion 선언
+color - property 속성
+red - value 값
+
+- 효과를 주고 싶은 대상이 두개 이상일때는 class="값"으로 주고, <style></style>에서 .값{}을하면 된다.
+- class에 값에 여려 개의 값이 들어올 수 있고 띄어스기로 구분한다.
+- 하나의 태그에는 여러 개의 속성이 들어올 수 있고 여러 개의 선택자를 통해 공동으로 제어 할 수 있다.
+- 선택자의 우선 순위는 tag<class<id.
+- id 선택자는 #값 {}, 속성에는 id="값".
+- 같은 선택자가 여러개 있을 때 우선 순위는 마지막에 있는 선택자의 우선순위가 높다. 
+- id의 값은 웹페이지에서 한번만 써야한다. 
+- 화면 전체를 쓰는 태그를 block level element, 자기 컨텐츠 만큼 쓰는 태그는 inline element.
+- 하지만 display 태그를 쓰면 block이나 inline으로 지정할 수 있다.
+- <div></div>는 디자인을 위해서만 존재,<span></span>이라는 태그도 있는데 차이점은 div는 block level element,span은 inline element.
+- 두개의 태그를 감싸고 싶으면 부모 태그를 해야한다. 
+- fr은 화면 전체를 분할해서 자동으로 배분해주는 단위.
+
