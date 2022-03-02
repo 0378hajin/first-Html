@@ -12,7 +12,7 @@ color - property 속성
 red - value 값
 
 - 효과를 주고 싶은 대상이 두개 이상일때는 class="값"으로 주고, <style></style>에서 .값{}을하면 된다.
-- class에 값에 여려 개의 값이 들어올 수 있고 띄어스기로 구분한다.
+- class에 값에 여려 개의 값이 들어올 수 있고 띄어쓰기로 구분한다.
 - 하나의 태그에는 여러 개의 속성이 들어올 수 있고 여러 개의 선택자를 통해 공동으로 제어 할 수 있다.
 - 선택자의 우선 순위는 tag<class<id.
 - id 선택자는 #값 {}, 속성에는 id="값".
@@ -23,4 +23,13 @@ red - value 값
 - <div></div>는 디자인을 위해서만 존재,<span></span>이라는 태그도 있는데 차이점은 div는 block level element,span은 inline element.
 - 두개의 태그를 감싸고 싶으면 부모 태그를 해야한다. 
 - fr은 화면 전체를 분할해서 자동으로 배분해주는 단위.
-
+- mediaquery를 쓰면 반응형 사이트를 만들 수 있다. 
+-     @media(min-width:800px) {
+    div{
+      display: none;
+    }
+  }
+- @media(min-width:800px) or (max-width:800px) min800은 800일 때 부터 작동, max800은 800일 때 까지 작동
+- mediaquery를 쓰려면 div에 중괄호를 써야함
+- link 태그를 쓰고 css파일을 연결 시켜주면 코드의 중복을 극단적으로 줄임과 동시에 많은 양의 중복되는 일들을 한번으로 줄일 수 있다.
+- 
