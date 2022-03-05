@@ -35,6 +35,30 @@
     한때 Apple의 상징과도 같았던 접두사 'i'를 처음으로 사용한 제품이기도 하다.
   </p>
       <img src="iMac.jpg" width="100%">
+      <input type="button" value="night" onclick="
+      var target = document.querySelector('body').style
+      if(this.value === 'night') {
+        target.backgroundColor = 'black';
+        target.color = 'white';
+        this.value = 'day';
+        var alist = document.querySelectorAll('a')
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = 'aquamarine';
+          i = i + 1;
+        }
+      } else {
+        target.backgroundColor = 'white';
+        target.color = 'black';
+        this.value = 'night';
+        var alist = document.querySelectorAll('a')
+        var i = 0;
+        while (i < alist.length) {
+          alist[i].style.color = 'blue';
+          i = i + 1;
+        }
+      }
+      ">
 </div>
 <div>
     <p>

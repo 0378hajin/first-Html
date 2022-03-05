@@ -40,6 +40,30 @@
     세계 시가총액 <strong><u>1위</u></strong> 기업이 된다.
   </p>
       <img src="Apple logo.jpg" width="800px">
+      <input type="button" value="night" onclick="
+      var target =  document.querySelector('body').style
+      if(this.value === 'night') {
+        target.backgroundColor = 'black';
+        target.color = 'white';
+        this.value = 'day'
+        var alist = document.querySelectorAll('a')
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = 'palevioletred'
+          i = i + 1;
+        }
+      } else {
+        target.backgroundColor = 'white';
+        target.color = 'black';
+        this.value = 'night';
+        var alist = document.querySelectorAll('a')
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = 'blue'
+          i = i + 1;
+        }
+      }
+      ">
 </div>
 </div>
     <p>
