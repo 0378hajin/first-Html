@@ -27,4 +27,30 @@ if절이 true면 if절에 있는 구문이 실행 되고, if절이 false면 else
 - 배열은 var 변수 = ["값","값2","값3"];
 - 배열에 값을 추가 하고 싶다면 변수.push("값3");
 - 배열에 있는 값의 수를 알고 싶다면 document.write(변수.length);
+- 함수(funtion)의 또다른 말은 메소드 이다.
 - 
+funtion 함수이름() {
+
+}
+
+- return을 사용하면 다양한 맥락에서 활용 할 수 있다. 
+-  함수에 있는 매게변수를 통해 들어간 값이 returnd을 통해 출력함으로서 다양한 용도로 사용할 수 있다. 
+     function sum2(left, right) {
+     return left + right;
+      }
+     document.write(sum2(2,3)+'<br>');
+     document.write('<div style = "color:red">'+sum2(2,3)+'</div>');
+     document.write('<div style = "font-size:3rem;">'+sum2(2,3)+'</div>');
+- 객체에 속해있는 함수를 메소드라고 부른다.
+- 객체는 { } 중괄호, 배열은 [ ] 대괄호
+-       var people = {
+        "programmer":"hajin",
+        "singer":"aeong"
+      }; 
+	객체를 만드는 방법
+-       document.write("singer :" + people.singer + "<br>");
+      document.write("programmer :" + people.programmer + "<br>");
+	만든 객체를 가져오는 방법
+- 객체를 만들 때 띄어쓰기가 있다면 people["good pastor"] = "top"; 한것처럼 대괄호를 하고 큰따옴표를 하면 된다.
+- 객체에 소속된 함수(function)를 메소드(Method)라고 하고, 객체에 소속된 변수를 프로퍼티(Property) 라고 한다.
+- 객체의 프로퍼티를 구분할 때 ,를 꼭 해줘야한다.

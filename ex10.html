@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+    <script>
+      var peoples = {
+        "programmer":"hajin",
+        "singer":"aeong"
+      };
+      document.write("singer :" + peoples.singer + "<br>");
+      document.write("programmer :" + peoples.programmer + "<br>");
+      peoples.man = "haram";
+      document.write("man :" + peoples.man + "<br>");
+      peoples["good pastor"] = "top";
+      document.write("good pastor :" + peoples["good pastor"] + "<br>");
+    </script>
+    <h2>Iterate</h2>
+    <script>
+      for (var key in peoples) {
+        document.write(key + ' : '+ peoples[key] + '<br>');
+      }
+    </script>
+    <h2>Property & Method</h2>
+    <script>
+      peoples.showAll = function () {
+        for (var key in this) {
+          document.write(key + ' : '+ this[key] + '<br>');
+        }
+      }
+      peoples.showAll();
+
+      <!--같은 의미
+      var showAll = function (){
+
+      }
+
+      function showAll() {
+
+      }//-->
+    </script>
+  </body>
+</html>
