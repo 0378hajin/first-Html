@@ -28,6 +28,7 @@ if절이 true면 if절에 있는 구문이 실행 되고, if절이 false면 else
 - 배열에 값을 추가 하고 싶다면 변수.push("값3");
 - 배열에 있는 값의 수를 알고 싶다면 document.write(변수.length);
 - 함수(funtion)의 또다른 말은 메소드 이다.
+- <script src="파일.js"></script>를 하면 css에서 link를 한 효과를 볼 수 있다.
 - 
 funtion 함수이름() {
 

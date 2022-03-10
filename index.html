@@ -13,8 +13,9 @@
   gtag('config', 'G-G0Z6KNHHD0');
 </script>
 <link rel="stylesheet" href="style.css">
+<script src="colors.js">
+</script>
   </head>
-
   <body>
     <h1><a href="index.html" style="text-decoration:underline;">Apple</a></h1>
     <div id="grid">
@@ -41,28 +42,7 @@
   </p>
       <img src="Apple logo.jpg" width="800px">
       <input type="button" value="night" onclick="
-      var target =  document.querySelector('body').style
-      if(this.value === 'night') {
-        target.backgroundColor = 'black';
-        target.color = 'white';
-        this.value = 'day'
-        var alist = document.querySelectorAll('a')
-        var i = 0;
-        while(i < alist.length){
-          alist[i].style.color = 'palevioletred'
-          i = i + 1;
-        }
-      } else {
-        target.backgroundColor = 'white';
-        target.color = 'black';
-        this.value = 'night';
-        var alist = document.querySelectorAll('a')
-        var i = 0;
-        while(i < alist.length){
-          alist[i].style.color = 'blue'
-          i = i + 1;
-        }
-      }
+      nightDayHandler(this);
       ">
 </div>
 </div>
